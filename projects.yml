@@ -51,7 +51,7 @@
   
 - title: rudu
   path: https://github.com/greensh16/rudu
-  image: https://github.com/user-attachments/assets/721ab886-1d01-4572-9f9f-63dc77ef2698
+  image: images/rudu.png
   description: >
     rudu is a high-performance, Rust-powered replacement for the traditional Unix du (disk usage) command. 
     It was built to provide a safer, faster, and more extensible alternative for scanning and analyzing directory sizes.
