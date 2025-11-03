@@ -1,0 +1,71 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+$primary: #0C93BD;
+
+$theme-pink: #F4857F;
+$theme-red: #B7533D;
+$theme-blue: #0C93BD;
+$theme-lightblue: #05C1E8;
+$theme-grey: #FAFAFA;
+$theme-black: black;
+
+$navbar-bg: $theme-red;
+$body-bg: #FFFFFF;
+
+/* Colors */
+$body-color: $theme-black;
+$link-color: $theme-pink;
+
+
+span.navbar-title {
+    color:  #FFFFFF;
+    transition-duration: 0.5s;
+  
+  &:hover {
+    color: $theme-lightblue;
+    transition-duration: 0.5s;
+  }
+}
+
+.card-text > p {
+  font: 14px/1.8 'Lato', Helvetica, Arial, sans-serif !important;
+  font-weight: 300 !important;
+  font-size: 1em;
+}
+
+.card-title {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  color: $theme-red !important;
+  
+    &:hover {
+    color: $theme-lightblue !important;
+    transition-duration: 0.5s;
+  }
+}
+
+body {
+  font: 18px/1.8 'Lato', Helvetica, Arial, sans-serif !important;
+  font-weight: 300 !important;
+  color: #000;
+  min-height: 100%;
+} 
+
+h1.title {
+  font-family: 'Lato', Helvetica, Arial, sans-serif;
+  color: $theme-red;
+}
+
+h5 {
+  font-weight: 500 !important;
+  
+}
+
+.category.active {
+  font-weight: 500 !important;
+  
+}
+
+
+

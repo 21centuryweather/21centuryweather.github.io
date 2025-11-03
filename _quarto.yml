@@ -1,0 +1,14 @@
+project:
+  type: website
+
+website:
+  navbar:
+    logo: logo.png
+    title: "The 21st Century Weather Toolkit"
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+
+editor: visual
+
