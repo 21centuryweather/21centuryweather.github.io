@@ -1,0 +1,43 @@
+- title: The Wiki
+  path: https://21centuryweather.github.io/21st-Century-Weather-Software-Wiki/intro.html
+  image: images/volodymyr-dobrovolskyy-KrYbarbAx5s-unsplash.jpg
+  # Photo by Volodymyr Dobrovolskyy on https://unsplash.com/photos/a-cat-sitting-in-front-of-a-computer-monitor-KrYbarbAx5s
+  description: >
+    The Centre's Software Engineering Team maintains a comprehensive wiki to provide 
+    information and resources related to computing in the Centre.
+  categories: [RSE Team]
+
+- title: Unified Model Summary Documentation
+  path: https://21centuryweather.github.io/UM_summary_docs/introduction.html
+  image: images/alexander-grey-eMP4sYPJ9x0-unsplash.jpg
+  #Photo by Alexander Grey on https://unsplash.com/photos/assorted-books-on-wooden-table-eMP4sYPJ9x0
+  
+  description: >
+    The ACCESS modeling suite is reliant on the UK Met Office’s Unified Model (UM) 
+    for atmospheric simulations. This documentation summarises the UM Documentation 
+    Papers.
+  categories: [RSE Team, Modelling Science]
+
+- title: Computational resources Dashboard
+  path: https://21centuryweather.github.io/nci_resource_tools/dashboard.html
+  image: images/dashboard.png
+  description: >
+    The dashboard shows resource (data and service unite) allocation and usage
+    for the 5 NCI projects.
+  categories: [RSE Team]
+
+- title: dask_setup
+  path: https://github.com/21centuryweather/dask_setup
+  image: images/dask.png
+  description: >
+    A comprehensive single‑node Dask setup helper designed for HPC environments 
+    (especially Gadi), with intelligent defaults for CPU-/I/O-bound workloads, 
+    advanced configuration management, storage format optimization, and user-friendly error handling.
+  categories: [RSE Team]
+  
+- title: WxSysLib
+  path: https://wxsyslib.readthedocs.io/en/latest/
+  image: https://21centuryweather.org.au/wp-content/uploads/NASA1-700x563.jpg
+  description: >
+    Weather Systems, Object Tracking and Dynamical Diagnostic Library.
+  categories: [Weather System Dynamics]
