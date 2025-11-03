@@ -41,3 +41,18 @@
   description: >
     Weather Systems, Object Tracking and Dynamical Diagnostic Library.
   categories: [Weather System Dynamics]
+  
+- title: Zenodo community
+  path: https://zenodo.org/communities/21stcenturyweather/records?q=&l=list&p=1&s=10&sort=newest
+  image: https://blog.zenodo.org/static/img/logos/zenodo-gradient-1000.png
+  description: >
+    The Zenodo community for all data, software and more created by the 21st Century Weather Centre.
+  categories: [RSE Tean]
+  
+- title: rudu
+  path: https://github.com/greensh16/rudu
+  image: https://github.com/user-attachments/assets/721ab886-1d01-4572-9f9f-63dc77ef2698
+  description: >
+    rudu is a high-performance, Rust-powered replacement for the traditional Unix du (disk usage) command. 
+    It was built to provide a safer, faster, and more extensible alternative for scanning and analyzing directory sizes.
+  categories: [RSE Tean]
