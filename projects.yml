@@ -1,23 +1,3 @@
-- title: The Wiki
-  path: https://21centuryweather.github.io/21st-Century-Weather-Software-Wiki/intro.html
-  image: images/volodymyr-dobrovolskyy-KrYbarbAx5s-unsplash.jpg
-  # Photo by Volodymyr Dobrovolskyy on https://unsplash.com/photos/a-cat-sitting-in-front-of-a-computer-monitor-KrYbarbAx5s
-  description: >
-    The Centre's Software Engineering Team maintains a comprehensive wiki to provide 
-    information and resources related to computing in the Centre.
-  categories: [RSE Team]
-
-- title: Unified Model Summary Documentation
-  path: https://21centuryweather.github.io/UM_summary_docs/introduction.html
-  image: images/alexander-grey-eMP4sYPJ9x0-unsplash.jpg
-  #Photo by Alexander Grey on https://unsplash.com/photos/assorted-books-on-wooden-table-eMP4sYPJ9x0
-  
-  description: >
-    The ACCESS modeling suite is reliant on the UK Met Office’s Unified Model (UM) 
-    for atmospheric simulations. This documentation summarises the UM Documentation 
-    Papers.
-  categories: [RSE Team, Modelling Science]
-
 - title: Computational resources Dashboard
   path: https://21centuryweather.github.io/nci_resource_tools/dashboard.html
   image: images/dashboard.png
@@ -42,17 +22,10 @@
     Weather Systems, Object Tracking and Dynamical Diagnostic Library.
   categories: [Weather System Dynamics]
   
-- title: Zenodo community
-  path: https://zenodo.org/communities/21stcenturyweather/records?q=&l=list&p=1&s=10&sort=newest
-  image: https://blog.zenodo.org/static/img/logos/zenodo-gradient-1000.png
-  description: >
-    The Zenodo community for all data, software and more created by the 21st Century Weather Centre.
-  categories: [RSE Tean]
-  
 - title: rudu
   path: https://github.com/greensh16/rudu
   image: images/rudu.png
   description: >
     rudu is a high-performance, Rust-powered replacement for the traditional Unix du (disk usage) command. 
     It was built to provide a safer, faster, and more extensible alternative for scanning and analyzing directory sizes.
-  categories: [RSE Tean]
+  categories: [RSE Team]

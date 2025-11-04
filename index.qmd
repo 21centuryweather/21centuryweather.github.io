@@ -1,10 +1,26 @@
 ---
-title: Projects
 listing:
-  contents: projects.yml
-  type: grid
-  max-description-length: 175
-  grid-item-border: false
-  categories: true
+  - id: docs
+    contents: documentation-projects.yml
+    type: grid
+    max-description-length: 175
+    grid-item-border: false
+    categories: true
+  - id: software
+    contents: software-projects.yml
+    type: grid
+    max-description-length: 175
+    grid-item-border: false
+    categories: true
 page-layout: full
 ---
+
+## Documentation
+
+:::{#docs}
+:::
+
+## Software
+
+:::{#software}
+:::
