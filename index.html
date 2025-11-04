@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects</title>
+<title>index</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f91aae27ff423d103434281d5e8f83ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-3e16d35ed9f1cb85dc80bd9a640f018b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-docs .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -86,7 +86,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-docs'] = new List('listing-docs', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-software .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-software'] = new List('listing-software', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -159,34 +187,110 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TW9kZWxsaW5nJTIwU2NpZW5jZQ==">Modelling Science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UlNFJTIwVGVhbQ==">RSE Team <span class="quarto-category-count">(4)</span></div><div class="category" data-category="UlNFJTIwVGVhbg==">RSE Tean <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V2VhdGhlciUyMFN5c3RlbSUyMER5bmFtaWNz">Weather System Dynamics <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="TW9kZWxsaW5nJTIwU2NpZW5jZQ==">Modelling Science <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UlNFJTIwVGVhbQ==">RSE Team <span class="quarto-category-count">(9)</span></div><div class="category" data-category="V2VhdGhlciUyMFN5c3RlbSUyMER5bmFtaWNz">Weather System Dynamics <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Projects</h1>
+
+
+
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<div id="listing-docs" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UlNFJTIwVGVhbQ==">
+<a href="https://21centuryweather.github.io/21st-Century-Weather-Software-Wiki/intro.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="images/volodymyr-dobrovolskyy-KrYbarbAx5s-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Wiki
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UlNFJTIwVGVhbQ=='); return false;">RSE Team</div>
+
 </div>
+<div class="card-text listing-description delink">
+<p>The Centre’s Software Engineering Team maintains a comprehensive wiki to provide information and resources related to computing in the Centre.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="UlNFJTIwVGVhbSUyQ01vZGVsbGluZyUyMFNjaWVuY2U=">
+<a href="https://21centuryweather.github.io/UM_summary_docs/introduction.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="images/alexander-grey-eMP4sYPJ9x0-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Unified Model Summary Documentation
+</h5>
+<div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('UlNFJTIwVGVhbQ=='); return false;">RSE Team</div>
 
+<div class="listing-category" onclick="window.quartoListingCategory('TW9kZWxsaW5nJTIwU2NpZW5jZQ=='); return false;">Modelling Science</div>
 
-<div class="quarto-title-meta column-page-left">
+</div>
+<div class="card-text listing-description delink">
+<p>The ACCESS modeling suite is reliant on the UK Met Office’s Unified Model (UM) for atmospheric simulations. This documentation summarises the UM Documentation Papers.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="V2VhdGhlciUyMFN5c3RlbSUyMER5bmFtaWNz">
+<a href="https://wxsyslib.readthedocs.io/en/latest/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="https://21centuryweather.org.au/wp-content/uploads/NASA1-700x563.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+WxSysLib
+</h5>
+<div class="listing-categories">
 
-    
-  
-    
-  </div>
-  
+<div class="listing-category" onclick="window.quartoListingCategory('V2VhdGhlciUyMFN5c3RlbSUyMER5bmFtaWNz'); return false;">Weather System Dynamics</div>
 
+</div>
+<div class="card-text listing-description delink">
+<p>Weather Systems, Object Tracking and Dynamical Diagnostic Library.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="UlNFJTIwVGVhbQ==">
+<a href="https://zenodo.org/communities/21stcenturyweather/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left borderless">
+<p class="card-img-top">
+<img loading="lazy" src="https://blog.zenodo.org/static/img/logos/zenodo-gradient-1000.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Zenodo community
+</h5>
+<div class="listing-categories">
 
-</header>
+<div class="listing-category" onclick="window.quartoListingCategory('UlNFJTIwVGVhbQ=='); return false;">RSE Team</div>
 
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+</div>
+<div class="card-text listing-description delink">
+<p>The Zenodo community for all data, software and more created by the 21st Century Weather Centre.</p>
+</div>
+</div>
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+</section>
+<section id="software" class="level2">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+<div id="listing-software" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0" data-categories="UlNFJTIwVGVhbQ==">
 <a href="https://21centuryweather.github.io/21st-Century-Weather-Software-Wiki/intro.html" class="quarto-grid-link">
@@ -295,7 +399,7 @@ WxSysLib
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="UlNFJTIwVGVhbg==">
+<div class="g-col-1" data-index="5" data-categories="UlNFJTIwVGVhbQ==">
 <a href="https://zenodo.org/communities/21stcenturyweather/records?q=&amp;l=list&amp;p=1&amp;s=10&amp;sort=newest" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -307,7 +411,7 @@ Zenodo community
 </h5>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('UlNFJTIwVGVhbg=='); return false;">RSE Tean</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UlNFJTIwVGVhbQ=='); return false;">RSE Team</div>
 
 </div>
 <div class="card-text listing-description delink">
@@ -316,7 +420,7 @@ Zenodo community
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="UlNFJTIwVGVhbg==">
+<div class="g-col-1" data-index="6" data-categories="UlNFJTIwVGVhbQ==">
 <a href="https://github.com/greensh16/rudu" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left borderless">
 <p class="card-img-top">
@@ -328,7 +432,7 @@ rudu
 </h5>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('UlNFJTIwVGVhbg=='); return false;">RSE Tean</div>
+<div class="listing-category" onclick="window.quartoListingCategory('UlNFJTIwVGVhbQ=='); return false;">RSE Team</div>
 
 </div>
 <div class="card-text listing-description delink">
@@ -339,7 +443,13 @@ rudu
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
