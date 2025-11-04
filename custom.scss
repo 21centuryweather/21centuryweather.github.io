@@ -52,9 +52,9 @@ body {
   min-height: 100%;
 } 
 
-h1.title {
-  font-family: 'Lato', Helvetica, Arial, sans-serif;
-  color: $theme-red;
+h2 {
+  font-family: 'Lato', Helvetica, Arial, sans-serif !important;
+  color: $theme-red !important;
 }
 
 h5 {
