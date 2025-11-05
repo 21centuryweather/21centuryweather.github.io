@@ -4,7 +4,11 @@ project:
 
 website:
   site-url: https://21centuryweather.github.io/
+<<<<<<< HEAD
   open-graph:
+=======
+  open-graph: true
+>>>>>>> 41a1bcd9cb66bfc5a4202dd0f4babf75a80b80e2
     site-name: "The 21st Century Weather Toolkit"
     description: "The 21st Century Weather Centre's software and documentation."
     image: logo.png  
