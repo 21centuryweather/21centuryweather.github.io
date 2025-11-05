@@ -3,6 +3,12 @@ project:
   output-dir: docs
 
 website:
+  site-url: https://21centuryweather.github.io/
+  open-graph:
+    site-name: "The 21st Century Weather Toolkit"
+    description: "The 21st Century Weather Centre's software and documentation."
+    image: logo.png  
+  favicon: logo.png
   navbar:
     logo: logo.png
     title: "The 21st Century Weather Toolkit"
