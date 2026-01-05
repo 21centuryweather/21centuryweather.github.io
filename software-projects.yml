@@ -56,3 +56,10 @@
     rudu is a high-performance, Rust-powered replacement for the traditional Unix du (disk usage) command. 
     It was built to provide a safer, faster, and more extensible alternative for scanning and analyzing directory sizes.
   categories: [RSE Team]
+  
+- title: stashmap
+  path: https://github.com/21centuryweather/stashmap
+  image: images/stashmap.png
+  description: >
+    The stashmap package provides functions to read and modify the stash and associated variables for the UM model.
+  categories: [RSE Team]
