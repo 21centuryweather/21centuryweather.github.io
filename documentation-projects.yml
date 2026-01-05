@@ -11,12 +11,18 @@
   path: https://21centuryweather.github.io/UM_summary_docs/introduction.html
   image: images/alexander-grey-eMP4sYPJ9x0-unsplash.jpg
   #Photo by Alexander Grey on https://unsplash.com/photos/assorted-books-on-wooden-table-eMP4sYPJ9x0
-  
   description: >
     The ACCESS modeling suite is reliant on the UK Met Office’s Unified Model (UM) 
     for atmospheric simulations. This documentation summarises the UM Documentation 
     Papers.
   categories: [RSE Team, Modelling Science]
+
+- title: Connecting Gadi & GitHub
+  path: https://www.notion.so/Connecting-Gadi-GitHub-with-Pao-2ca8e507c8b380a5bc49db252157c40a
+  image: https://git-scm.com/images/branching-illustration@2x.png
+  description: >
+    Technical notes on how to work with git on Gadi. Author: Jane Nguyen.
+  categories: [Community]
 
 - title: WxSysLib
   path: https://wxsyslib.readthedocs.io/en/latest/
