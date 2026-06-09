@@ -63,3 +63,10 @@
   description: >
     The stashmap package provides functions to read and modify the stash and associated variables for the UM model.
   categories: [RSE Team]
+  
+- title: Research Project Template
+  path: https://github.com/21centuryweather/research-project-template
+  image: images/template.png
+  description: >
+    Research project template using resposible practices for scientific software.
+  categories: [RSE Team]
